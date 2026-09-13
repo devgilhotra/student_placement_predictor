@@ -1,0 +1,27 @@
+Raw Dataset
+     ↓
+Remove leakage / unnecessary columns
+     ↓
+Define X and y
+     ↓
+Train-Test Split
+     ↓
+Identify numerical & categorical features
+     ↓
+Preprocessing
+     ↓
+StandardScaler
+     ↓
+OneHotEncoder
+     ↓
+Logistic Regression
+     ↓
+Predictions
+     ↓
+Accuracy
+     ↓
+Precision / Recall / F1
+     ↓
+Confusion Matrix
+     ↓
+Model interpretation

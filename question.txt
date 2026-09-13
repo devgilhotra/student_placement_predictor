@@ -1,0 +1,33 @@
+Q1) What did I find during EDA?
+
+--> I found that internship experience was positively associated with placement. The observed placement rate increased from about 62.8% for students with no internships to 77.2% for students with three internships.
+
+
+
+CGPA ↑ → Placement rate ↑
+Internships ↑ → Placement rate ↑
+Coding skills ↑ → likely placement ↑
+
+
+Placed students have slightly higher average DSA, aptitude, and communication scores than non-placed students, suggesting these variables may provide useful predictive information.
+
+
+Correlation does not mean causation, and it doesn't tell us that one feature is automatically more important to the final Logistic Regression model. It's an exploratory measure.
+
+
+CGPA has a positive linear association with placement, but CGPA alone does not explain placement very well.
+
+
+
+                    EDA
+                     │
+       ┌─────────────┼──────────────┐
+       ↓             ↓              ↓
+     Target       Numerical     Categorical
+       │             │              │
+ Placement        CGPA          Branch
+ distribution     Coding        College Tier
+                  DSA
+                  Aptitude
+                  Internships
+                  Correlation
